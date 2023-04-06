@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+    <link rel="stylesheet" href="dom.css">
+</head>
+<body>
+    <h1>Event Listener</h1>
+    <button onclick="tellDate()">The time is?</button>
+<p id="demo"></p>
+
+<h3>Change Button Text</h3>
+<button id="element2" onClick="javascript:changeText(2)">My Old Text</button>
+
+<h3>Change Button Color</h3>
+<button class="my-button red" id="red" onclick="myRed()">Red</button>
+<button class="my-button yellow" id="yellow" onclick="myYellow()">Yellow</button>
+<button class="my-button blue" id="blue" onclick="myBlue()">Blue</button>
+<button class="my-button green" id="green" onclick="myGreen()">Green</button>
+<p></p>
+
+<h3>Some Extra</h3>
+<a href="javascript:void(0)" onclick="if(this.innerHTML =='Read More'){this.innerHTML = 'Close'}else{this.innerHTML = 'Read More'}">Read More</a>
+
+
+
+<script src="dom.js"></script>
+</body>
+</html>
